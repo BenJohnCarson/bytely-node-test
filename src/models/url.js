@@ -4,7 +4,7 @@ const validators = require('mongoose-validators');
 
 const urlSchema = new mongoose.Schema({
   longUrl: { type: String, required: true, unique: true, validate: validators.isURL() },
-
+  shortCode: { type: String, required: true}
 });
 
 urlSchema.plugin(uniqueValidator);
