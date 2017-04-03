@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { ByteContainer, InputArea } from '../ByteContainer';
+import { ByteContainer, InputArea } from '../components/ByteContainer';
 import { shallow, mount, render } from 'enzyme';
 
 
